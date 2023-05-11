@@ -351,3 +351,7 @@ height: 30px;
 display: flex;
 justify-content: end;
 }
+
+.Subject label{
+  font-weight: bold;
+}

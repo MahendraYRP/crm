@@ -280,7 +280,7 @@ text-align: center;
 .ibox1{
   width: 100%;
   display: flex;
- justify-content: end;
+ justify-content: center;
 }
 
 .ibox1 button{
