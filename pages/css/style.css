@@ -107,6 +107,7 @@ input:focus{
 .form-group label {
   padding-right:10px;
   width: 20%;
+  font-weight: bold;
 }
 select:focus{
   outline: silver;
