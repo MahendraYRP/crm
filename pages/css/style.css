@@ -174,6 +174,7 @@ color: #223254;
     width: 90px;
     font-size: 8px;
     text-align: center;
+    height: 39px;
   }
 
    
@@ -279,4 +280,9 @@ text-align: center;
   width: 100%;
   display: flex;
  justify-content: end;
+}
+
+.ibox1 button{
+  width: 75px;
+  height: 50px;
 }

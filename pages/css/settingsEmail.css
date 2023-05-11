@@ -283,9 +283,10 @@
     padding-left: 210px;
   }
   
-  span{
+  .span{
     color: #fff;
   }
+
   table {
     overflow: scroll;
    caption-side: bottom;

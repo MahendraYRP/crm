@@ -152,9 +152,8 @@ var removeform = document.getElementById('removebtn');
 var clickcount = 0;
 function remove(i){
 
-    const children = employeeFormsContainer.querySelectorAll("form");
-    children[i].innerHTML="";  
-    count--;
-
+  const children = employeeFormsContainer.querySelectorAll("form");
+  children[i].innerHTML="";  
+  count--;
 }
 
