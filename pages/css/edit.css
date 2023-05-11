@@ -23,9 +23,9 @@ width: 100%;
   display: flex;
   
 }
-input, label{
+/* input, label{
 margin: 20px;
-}
+} */
 .form-group label{
 padding-right: 10px;
 width: 20%;
@@ -217,9 +217,7 @@ width: 200px;
  width: 25%;
  padding-left: 10px;
 }
-label{
-  width: 10%;
-}
+
 input{
   width: 90%;
 }
