@@ -1,0 +1,25 @@
+.btnaddemp a{
+    color: aliceblue;
+}
+
+.btnaddemp1{
+    padding-left: 50px;
+
+}
+
+.flexbtnaddemp{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+button a{
+    color: white;
+}
+button a:hover{
+    color: rgb(255, 255, 255);
+}
+footer{
+    margin-top: 220px;
+}
+

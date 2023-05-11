@@ -1,0 +1,18 @@
+input{
+    margin: 10px;
+    width: 60%;
+}
+
+select{
+    margin: 10px;
+    width: 60%;
+}
+
+label{
+    font-weight: bold;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+}
