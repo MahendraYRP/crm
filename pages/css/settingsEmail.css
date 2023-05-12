@@ -54,13 +54,19 @@
   p a:hover{
     color: #fff;
   }
+
   .form-horizontal {
     background-color: #fff;
     padding: 20px;
     margin:0px 20px 20px 20px;
-    width: 50%;
   }
   
+#inputcontrol{
+  width: 50%;
+}
+#email_method{
+  width: 50%;
+}
   
   .ibox-title{
     background-color: #fff;
@@ -298,7 +304,7 @@
 
  .settingsEmail{
   display: flex;
-  justify-content: center;
+  padding-left: 20%;
  }
 
  div label {

@@ -18,3 +18,15 @@ for (i = 0; i < dropdown.length; i++) {
   });
   
 }
+
+
+// var invoicebill = document.getElementById("invoicebill");
+// var printinvoice = document.getElementById("printinvoice");
+
+// printinvoice.addEventListener('click',()=>{
+//   var printContents = invoicebill.innerHTML;
+//   var originalContents = document.body.innerHTML;
+//   document.body.innerHTML = printContents;
+//   window.print();
+//   document.body.innerHTML = originalContents;
+// });

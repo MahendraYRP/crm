@@ -22,4 +22,18 @@ button a:hover{
 footer{
     margin-top: 220px;
 }
+.modal-header{
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.printbtn{
+    width: 100%;
+     padding: 0;
+     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 

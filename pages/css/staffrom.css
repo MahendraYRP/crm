@@ -266,7 +266,7 @@
     width: 230px;
    display: flex;
    width: 100%;
-   justify-content: center;
+  padding-left: 20%;
   }
 
 #wrapper {
@@ -339,13 +339,16 @@
     border-color: #e7eaec;
     border-style: none solid none;
     border-width: 1px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, .12)
+    border-bottom: 1px solid rgba(0, 0, 0, .12);
+    width: 100%;   
 }
 
 .ibox-content {
     clear: both
 }
-
+#textbox{
+  width: 50%;
+}
 .ibox-heading {
     background-color: #f3f6fb;
     border-bottom: 0

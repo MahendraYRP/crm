@@ -23,9 +23,7 @@ width: 100%;
   display: flex;
   
 }
-/* input, label{
-margin: 20px;
-} */
+
 .form-group label{
 padding-right: 10px;
 width: 20%;
@@ -49,9 +47,7 @@ select{
 input[type="date"]{
 text-align: center;
 }
-.Subject{
-  width: 100%;
-}
+
 select{
   border: 1px solid #aaa;
   background-color: #fff;
@@ -103,21 +99,28 @@ thead tr{
 display: flex;
 justify-content: space-around;
 } 
-thead th:nth-child(1){
+
+
+ thead th:nth-child(1){
 text-indent:-60%;
 }
+thead th:nth-child(2){
+  text-indent:-60%;
+  }
 thead th:nth-child(3){
-text-indent:400%;
+text-indent:-100%;
 }
 thead th:nth-child(4){
-text-indent:450%;
+text-indent:-90%;
 }
 thead th:nth-child(5){
-text-indent:850%;
+text-indent:-90%;
 }
 thead th:nth-child(6){
-text-indent:850%;
-}
+text-indent:-90%;
+} 
+
+
 /* editorone */
 .editorone{
   margin: 40px;
@@ -127,7 +130,7 @@ text-indent:850%;
 }
 .ck{
   height: 30vh;
-}
+} */
 
 td input{
   width: 50%;
@@ -167,8 +170,8 @@ display: flex;
 justify-content: center;
 padding-right: 8%;
 background-color: #ffffff;
-margin-left: 24px;
-margin-right: 24px;
+margin-left: 1%;
+margin-right: 1%;
 }
 .editclose button a{
 color: white;
@@ -176,10 +179,11 @@ color: white;
 .editclose{
 gap: 20px;
 }
+
 tbody{
 display: flex;
 flex-direction: column;
-width: 150%;
+width: 100%;
 }
 .tableheader{
 background-color: #3f3a3a;
@@ -200,6 +204,17 @@ padding-right: 40px;
   width: 75px;
   height: 50px;
 }
+.Subject{
+  width: 90%;
+}
+.texthovercolor{
+  color: #495057;
+  
+}
+.texthovercolor:hover{
+  color: rgb(224, 11, 82);
+  text-decoration: none;
+}
 
 @media screen and (max-device-width:767px){
 .mediacol{
@@ -209,6 +224,7 @@ padding-right: 40px;
 .Subject{
   width: 90%;
   display: flex;
+  
 }
 .Subject input{
 width: 200px;
@@ -354,4 +370,8 @@ justify-content: end;
 
 .Subject label{
   font-weight: bold;
+}
+
+.QuotesCalculatorfills{
+  gap: 10px;
 }

@@ -17441,15 +17441,16 @@ pre[class*="language-"] {
 /*
  * Scrollbar rail styles
  */
+
 .ps__rail-x {
   display: none;
   opacity: 0;
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   height: 15px;
-  /* there must be 'bottom' or 'top' for ps__rail-x */
+
   bottom: 0px;
-  /* please don't change 'position' */
+
   position: absolute; }
 
 .ps__rail-y {
@@ -17458,9 +17459,9 @@ pre[class*="language-"] {
   transition: background-color .2s linear, opacity .2s linear;
   -webkit-transition: background-color .2s linear, opacity .2s linear;
   width: 15px;
-  /* there must be 'right' or 'left' for ps__rail-y */
+
   right: 0;
-  /* please don't change 'position' */
+
   position: absolute; }
 
 .ps--active-x > .ps__rail-x,
@@ -17485,18 +17486,16 @@ pre[class*="language-"] {
   background-color: #eee;
   opacity: 0.9; }
 
-/*
- * Scrollbar thumb styles
- */
+/* 
 .ps__thumb-x {
   background-color: #aaa;
   border-radius: 6px;
   transition: background-color .2s linear, height .2s ease-in-out;
   -webkit-transition: background-color .2s linear, height .2s ease-in-out;
   height: 6px;
-  /* there must be 'bottom' for ps__thumb-x */
+
   bottom: 2px;
-  /* please don't change 'position' */
+
   position: absolute; }
 
 .ps__thumb-y {
@@ -17505,9 +17504,9 @@ pre[class*="language-"] {
   transition: background-color .2s linear, width .2s ease-in-out;
   -webkit-transition: background-color .2s linear, width .2s ease-in-out;
   width: 6px;
-  /* there must be 'right' for ps__thumb-y */
+
   right: 2px;
-  /* please don't change 'position' */
+
   position: absolute; }
 
 .ps__rail-x:hover > .ps__thumb-x,
@@ -17520,7 +17519,7 @@ pre[class*="language-"] {
 .ps__rail-y:focus > .ps__thumb-y,
 .ps__rail-y.ps--clicking .ps__thumb-y {
   background-color: #999;
-  width: 11px; }
+  width: 11px; } */
 
 /* MS supports */
 @supports (-ms-overflow-style: none) {
@@ -17539,4 +17538,25 @@ pre[class*="language-"] {
 .sign-in:hover{
   color: #7B809A;
   text-decoration: none;
+}
+
+.pagenav{
+  color: #7B809A;
+  text-decoration: none;
+}
+.pagenav:hover{
+  color: #7B809A;
+  text-decoration: none;
+}
+.texthovercolor{
+  color: #344767;
+}
+.texthovercolor:hover{
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+
+.copyrightbox{
+  display: flex;
+  justify-content: start;
 }
