@@ -17556,7 +17556,34 @@ pre[class*="language-"] {
   text-decoration: none;
 }
 
+
 .copyrightbox{
   display: flex;
   justify-content: start;
+}
+
+.dashnav:hover{
+  text-decoration: none;
+}
+
+.headertext{
+width: 100%;
+display: flex;
+justify-content: center;
+height: 50px;
+
+}
+
+.formheadertext{
+  width: 50%;
+display: flex;
+justify-content: center;
+height: 50px;
+}
+
+.userheader{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
 }

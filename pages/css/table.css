@@ -37,3 +37,8 @@ footer{
     align-items: center;
 }
 
+@media print{
+    .printbtn{
+        display: none;
+    }    
+}
