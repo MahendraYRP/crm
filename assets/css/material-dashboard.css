@@ -17561,7 +17561,10 @@ pre[class*="language-"] {
   display: flex;
   justify-content: start;
 }
-
+.copy-right-container{
+  display: flex;
+  justify-content: start;
+}
 .dashnav:hover{
   text-decoration: none;
 }
